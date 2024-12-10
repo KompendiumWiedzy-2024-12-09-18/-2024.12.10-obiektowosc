@@ -92,5 +92,16 @@ public class App {
         c4.dodaj(5.5, 7.7);
 
         c4.dodaj(3.3, 5);
+
+        Address address = new Address("Krakow", "Poland", "Ogrodowa", "22A");
+        System.out.println(address.city);
+        System.out.println(address.country);
+        System.out.println(address.street);
+        System.out.println(address.no);
+
+        Address address2 = new Address("Poznan", "Poland");
+        System.out.println(address2);
+
+        Address address3 = new Address(null, "sdfsd");
     }
 }

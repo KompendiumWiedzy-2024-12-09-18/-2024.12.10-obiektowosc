@@ -22,7 +22,7 @@ public class Client {
     }
 
     void powiedzSwojeImie() {
-        System.out.println(name);
+        System.out.println(this.name);
     }
 
     void skomplikowanyAlgorytm() {
@@ -58,4 +58,9 @@ public class Client {
         //krok 17
         //krok 18
     }
+
+    /*@Override
+    public boolean equals(Object obj) {
+        throw new UnsupportedOperationException();
+    }*/
 }
